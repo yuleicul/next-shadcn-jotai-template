@@ -1,6 +1,9 @@
 {
-  "name": "next-shadcn-template",
+  "name": "next-shadcn-jotai-template",
   "version": "0.1.0",
+  "author": {
+    "name": "Yulei Chen"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
