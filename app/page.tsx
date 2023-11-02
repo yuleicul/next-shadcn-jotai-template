@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 
 export default function Home() {
   return (
@@ -37,6 +38,21 @@ export default function Home() {
           height={37}
           priority
         />
+      </div>
+      <div>
+        with{' '}
+        <a
+          className="underline"
+          href="https://ui.shadcn.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          shadcn/ui
+        </a>
+      </div>
+
+      <div>
+        <Button>Just a button</Button>
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
